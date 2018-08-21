@@ -1,7 +1,7 @@
 {
   "name": "amphora-schedule",
   "version": "0.0.1",
-  "description": "A schedule module for Amphora that leverages scheduled publications",
+  "description": "A scheduling module for Amphora",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint --max-warnings 0 lib",
@@ -9,7 +9,9 @@
     "test": "npm run eslint && npm run jest"
   },
   "keywords": [
-    "amphora"
+    "amphora",
+    "clay",
+    "kiln"
   ],
   "repository": {
     "type": "git",
