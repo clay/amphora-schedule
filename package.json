@@ -1,6 +1,6 @@
 {
   "name": "amphora-schedule",
-  "version": "1.0.4",
+  "version": "2.0.0-0",
   "description": "A scheduling module for Amphora",
   "main": "index.js",
   "scripts": {
