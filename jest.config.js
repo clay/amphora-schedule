@@ -4,12 +4,10 @@ module.exports = {
   verbose: true,
   clearMocks: true,
   collectCoverage: true,
+  // Jest 27+ applies the negations to the patterns before them, so the exclusions come last
   collectCoverageFrom: [
-    '!coverage/**',
-    '!**/node_modules/**',
-    '!*.config.js',
-    '!index.js',
-    '**/*.js'
+    'lib/**/*.js',
+    '!lib/**/*.test.js'
   ],
   coverageDirectory: 'coverage'
 };
